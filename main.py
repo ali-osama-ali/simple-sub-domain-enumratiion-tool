@@ -7,8 +7,6 @@ wordlist = open("wordlist2.txt", "r")
 sub_domains = wordlist.read()
 sub_domains = list(sub_domains.split("\n"))
 
-# print(len(sub_domains))
-
 i = 0
 
 while i < len(sub_domains):
